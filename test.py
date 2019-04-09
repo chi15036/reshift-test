@@ -1,5 +1,5 @@
 import psycopg2
-con=psycopg2.connect("dbname=dev host=witcher-test.creydll8nevp.ap-northeast-1.redshift.amazonaws.com port=5439 user=awsuser password=Aa26298077")
+con=psycopg2.connect("dbname=dev host=witcher-test.creydll8nevp.ap-northeast-1.redshift.amazonaws.com port=5439 user=awsuser password=****")
 cursor = con.cursor()
 cursor.execute("""
 unload ('
